@@ -23,8 +23,6 @@ streamlit run app.py                               # chat UI
 
 ## Results
 
-## Results
-
 30 math word problems, temperature 0, one run per configuration (accuracy):
 
 | model                       | baseline | role | few_shot | cot  |
@@ -50,3 +48,7 @@ streamlit run app.py                               # chat UI
 
 30 math word problems with numeric ground truth; each prompt style run on each model at temperature 0;
 answers parsed from the final `Answer:` line and compared with tolerance 0.01.
+
+## Demo
+
+![Chat app](docs/app.png)
