@@ -1,0 +1,122 @@
+[
+  {
+    "question": "A shop sells pens at $3 each. Maya buys 12 pens and pays with a $50 bill. How much change does she get in dollars?",
+    "answer": 14
+  },
+  {
+    "question": "A train travels at 60 km/h for 2.5 hours. How many kilometers does it cover?",
+    "answer": 150
+  },
+  {
+    "question": "What is 15% of 240?",
+    "answer": 36
+  },
+  {
+    "question": "A rectangle is 12 m long and 7 m wide. What is its area in square meters?",
+    "answer": 84
+  },
+  {
+    "question": "Tom has 45 marbles, gives away one third of them, then buys 8 more. How many marbles does he have?",
+    "answer": 38
+  },
+  {
+    "question": "8 workers finish a job in 6 days. How many days would 12 workers need at the same rate?",
+    "answer": 4
+  },
+  {
+    "question": "A $80 item is discounted 20%, then the discounted price is reduced a further 10%. What is the final price in dollars?",
+    "answer": 57.6
+  },
+  {
+    "question": "What is the average of 12, 18, 24 and 30?",
+    "answer": 21
+  },
+  {
+    "question": "A car uses 8 liters of fuel per 100 km. How many liters are needed for 250 km?",
+    "answer": 20
+  },
+  {
+    "question": "A notebook costs $2.50. How much do 6 notebooks cost in dollars?",
+    "answer": 15
+  },
+  {
+    "question": "Sarah reads 24 pages a day. How many days will she need to finish a 360-page book?",
+    "answer": 15
+  },
+  {
+    "question": "What is the sum of the first 10 positive integers?",
+    "answer": 55
+  },
+  {
+    "question": "A 200-liter tank is 35% full. How many more liters are needed to fill it?",
+    "answer": 130
+  },
+  {
+    "question": "A bakery makes 15 cakes per hour for 8 hours and sells three quarters of them. How many cakes are left unsold?",
+    "answer": 30
+  },
+  {
+    "question": "A square has a perimeter of 48 cm. What is the length of one side in cm?",
+    "answer": 12
+  },
+  {
+    "question": "3 apples cost $1.20. How much do 10 apples cost in dollars?",
+    "answer": 4
+  },
+  {
+    "question": "Ali is 4 times as old as his son, and their ages add up to 45. How old is the son?",
+    "answer": 9
+  },
+  {
+    "question": "Raj earns $4000 a month. He spends 45% on rent and 15% on food. How many dollars are left?",
+    "answer": 1600
+  },
+  {
+    "question": "Convert 90 km/h to meters per second.",
+    "answer": 25
+  },
+  {
+    "question": "What is 2 to the power of 7?",
+    "answer": 128
+  },
+  {
+    "question": "A $1000 loan has 5% simple interest per year. How much interest in dollars accrues over 3 years?",
+    "answer": 150
+  },
+  {
+    "question": "Concert tickets cost $25 for adults and $15 for children. What is the total in dollars for 4 adults and 6 children?",
+    "answer": 190
+  },
+  {
+    "question": "If 3x + 7 = 40, what is x?",
+    "answer": 11
+  },
+  {
+    "question": "3 pizzas are cut into 8 slices each. If 20 slices are eaten, how many slices remain?",
+    "answer": 4
+  },
+  {
+    "question": "A bottle holds 0.75 liters. How many liters are in 12 bottles?",
+    "answer": 9
+  },
+  {
+    "question": "A $150 jacket is 30% off. What is the sale price in dollars?",
+    "answer": 105
+  },
+  {
+    "question": "What is the least common multiple of 6 and 8?",
+    "answer": 24
+  },
+  {
+    "question": "Lisa runs 5 km on Monday, 7 km on Wednesday and 9 km on Friday. What is her average distance per run in km?",
+    "answer": 7
+  },
+  {
+    "question": "A worker earns $18 per hour and works 7.5 hours a day for 4 days. How many dollars does she earn in total?",
+    "answer": 540
+  },
+  {
+    "question": "2 liters of concentrate are mixed with 6 liters of water. What percent of the mixture is concentrate?",
+    "answer": 25
+  }
+]
