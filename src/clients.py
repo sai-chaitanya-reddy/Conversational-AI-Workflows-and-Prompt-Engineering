@@ -22,17 +22,22 @@ MODELS = {
 FALLBACK_ORDER = ["gpt", "groq_llama", "mistral"]
 
 
-def chat(model_key, messages, temperature=0.0, retries=3):
+def chat(model_key, messages, temperature=0.0, retries=3, max_tokens=512):
     """Call one model with retry + exponential backoff."""
     last_err = None
     for attempt in range(retries):
         try:
             r = client.chat.completions.create(
-                model=MODELS[model_key], messages=messages, temperature=temperature
+                model=MODELS[model_key],
+                messages=messages,
+                temperature=temperature,
+                max_tokens=max_tokens,
             )
             return r.choices[0].message.content or ""
         except Exception as e:  # rate limits, timeouts, 5xx
             last_err = e
+            if "402" in str(e):  # out of credits: retrying won't help
+                break
             time.sleep(2 ** attempt)
     raise RuntimeError(f"{model_key} failed after {retries} tries: {last_err}")
 
