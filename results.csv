@@ -1,0 +1,13 @@
+model,prompt,accuracy
+gpt,baseline,0.8666666666666667
+gpt,role,1.0
+gpt,few_shot,0.7333333333333333
+gpt,cot,1.0
+groq_llama,baseline,1.0
+groq_llama,role,1.0
+groq_llama,few_shot,0.9666666666666667
+groq_llama,cot,1.0
+mistral,baseline,0.8333333333333334
+mistral,role,0.9
+mistral,few_shot,0.8666666666666667
+mistral,cot,1.0
